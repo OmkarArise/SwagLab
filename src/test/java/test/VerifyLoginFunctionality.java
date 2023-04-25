@@ -30,10 +30,10 @@ public class VerifyLoginFunctionality extends BaseTest {
 		System.out.println("LogIn Sucessfully");
 		
 		SwagLabHomePage swagLabHomePage = new SwagLabHomePage(driver);
-//		swagLabHomePage.clickOnMenu();
-//		swagLabHomePage.clickOnLogOut();
-		int size = swagLabHomePage.numberOfProduct();
-		System.out.println(size);
+		swagLabHomePage.clickOnMenu();
+    	swagLabHomePage.clickOnLogOut();
+//		int size = swagLabHomePage.numberOfProduct();
+//		System.out.println(size);
 		
 		System.out.println("LogOut Sucessfully");
 	}
